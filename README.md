@@ -5,10 +5,10 @@ Last Update: 2016-03-09
 
 ----------
 
-# *Clostridium sordellii* Project
+# *Clostridium sordellii* 8483 Project
 Project started 2016-03-09.  
 
-We checked the draft genome sequence of *Clostridium sordellii* reported by [Scaria J et al. (2015)](http://www.ncbi.nlm.nih.gov/pubmed/26059449).
+We checked the draft genome sequence of [Clostridium sordellii 8483](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AJXR), reported by [Scaria J et al. (2015)](http://www.ncbi.nlm.nih.gov/pubmed/26059449).
 
 ## Project directories
 
@@ -43,5 +43,10 @@ We performed similarity searches of Clostridium sordellii contigs against Clostr
 
 ## References
 - [Scaria J et al. (2015) BMC Genomics. 'Comparative genomic and phenomic analysis of Clostridium difficile and Clostridium sordellii, two related pathogens with differing host tissue preference.'](http://www.ncbi.nlm.nih.gov/pubmed/26059449)
+
+- NCBI :: Whole Genome Shotgun (WGS)
+ - [Clostridium sordellii 8483](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AJXR)
+ - [Clostridium sordellii VPI 9048](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=AQGJ)
+ - [Clostridium sordellii ATCC 9714](http://www.ncbi.nlm.nih.gov/Traces/wgs/?val=APWR)
 
 ----------
