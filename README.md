@@ -8,10 +8,7 @@ Last Update: 2016-03-09
 # *Clostridium sordellii* Project
 Project started 2016-03-09.  
 
-We checked *Clostridium sordellii* genome sequences reported by [Scaria J et al. (2015)](http://www.ncbi.nlm.nih.gov/pubmed/26059449). We performed similarity searches of Clostridium sordellii contigs against Clostridium difficile 630 database using BLASTN (E-value < 1e-150).
-- For Clostridium sordellii 8483 (1172204.3.fna), 1174 (74.7%) of the 1570 contigs matched to C.difficile.
-- For Clostridium sordellii VPI 9048 (1292035.3.fna), 23 (13.9%) of the 166 contigs matched to C.difficile.
-- For Clostridium sordellii ATCC 9714 (1292036.3.fna), 30 (29.1%) of the 103 contigs matched to C.difficile.
+We checked the draft genome sequence of *Clostridium sordellii* reported by [Scaria J et al. (2015)](http://www.ncbi.nlm.nih.gov/pubmed/26059449).
 
 ## Project directories
 
@@ -28,6 +25,13 @@ The shell script `scripts/run.sh` automatically carries out the entire steps: cr
 Let's run the driver script in the project's main directory `csordellii/` with:
 
     bash scripts/run.sh > log.txt 2>&1 &
+
+## Results
+
+ We performed similarity searches of Clostridium sordellii contigs against Clostridium difficile 630 database using BLASTN (E-value < 1e-150).
+- For Clostridium sordellii 8483 (`1172204.3.fna`), 1174 (74.7%) of the 1570 contigs matched to C.difficile.
+- For Clostridium sordellii VPI 9048 (`1292035.3.fna`), 23 (13.9%) of the 166 contigs matched to C.difficile.
+- For Clostridium sordellii ATCC 9714 (`1292036.3.fna`), 30 (29.1%) of the 103 contigs matched to C.difficile.
 
 ## Updates
 
