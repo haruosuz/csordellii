@@ -27,11 +27,11 @@ Let's run the driver script in the project's main directory `csordellii/` with:
     bash scripts/run.sh > log.txt 2>&1 &
 
 ## Results
-
- We performed similarity searches of Clostridium sordellii contigs against Clostridium difficile 630 database using BLASTN (E-value < 1e-150).
-- For Clostridium sordellii 8483 (`1172204.3.fna`), 1174 (74.7%) of the 1570 contigs matched to C.difficile.
-- For Clostridium sordellii VPI 9048 (`1292035.3.fna`), 23 (13.9%) of the 166 contigs matched to C.difficile.
-- For Clostridium sordellii ATCC 9714 (`1292036.3.fna`), 30 (29.1%) of the 103 contigs matched to C.difficile.
+We performed similarity searches of Clostridium sordellii contigs against Clostridium difficile 630 database using BLASTN (E-value < 1e-150).
+- For C.sordellii 8483 (`1172204.3.fna`), 1174 (74.7%) of the 1570 contigs matched to C.difficile. For example, contig00548 showed % identity = 99.62, alignment length = 41092.
+- For C.sordellii VPI 9048 (`1292035.3.fna`), 23 (13.9%) of the 166 contigs matched to C.difficile. For example, contig AQGJ01000149 showed % identity = 86.14, alignment length = 16173.
+- For C.sordellii ATCC 9714 (`1292036.3.fna`), 30 (29.1%) of the 103 contigs matched to C.difficile. For example, contig APWR01000084 showed % identity = 86.05, alignment length = 16174.
+There were many long matched regions in C.sordellii strain 8483 compared to other strains (VPI 9048 and ATCC 9714).
 
 ## Updates
 
